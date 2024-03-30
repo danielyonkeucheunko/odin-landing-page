@@ -24,7 +24,7 @@ img {
   width: 1000px;
 }
 
-.sign-up-1 {
+.sign-up {
   background-color: #3882f6;
   color: #f9faf8;
   border: none;
@@ -35,8 +35,12 @@ img {
   margin-top: 10px;
 }
 
-.sign-up-1:active {
-  background-color: #6fa3f8;
+.sign-up:active {
+  background-color: #9cc0fb;
+}
+
+.sign-up:hover {
+  background-color: #4b90ff;
 }
 
 .top {
@@ -152,4 +156,35 @@ img {
   justify-content: center;
   align-items: center;
   padding: 25px 0px;
+}
+
+.action {
+  padding: 100px 250px 100px 250px;
+  display: flex;
+}
+
+.action-card {
+  width: 80vw;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  border-radius: 15px;
+}
+
+.sign-up2 {
+  border: #e5e7eb;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.action-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.action-subtext {
+  color: #f9faf8;
 }
